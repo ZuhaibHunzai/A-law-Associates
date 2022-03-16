@@ -31,7 +31,7 @@ const ContactNav = () => {
           </div>
           <div>
             <Typography variant="subtitle2" className={classes.ContactNavIcon}>
-              051-4927179
+              +98-3235119763
             </Typography>
           </div>
         </div>

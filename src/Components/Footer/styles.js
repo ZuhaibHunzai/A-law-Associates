@@ -71,7 +71,7 @@ const useStyles = makeStyles((theme) => ({
   },
   iocons: {
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "left",
     paddingTop: "12px",
     width: "150px",
     [theme.breakpoints.down("sm")]: {
@@ -95,6 +95,13 @@ const useStyles = makeStyles((theme) => ({
       fontSize: "16px",
       paddingBottom: "12px",
     },
+  },
+  ContactNavIcons: {
+    display: "flex",
+    justifyContent: "left",
+    alignItems: "left",
+    marginRight: "10px",
+    color: "#FFFFFF",
   },
 }));
 

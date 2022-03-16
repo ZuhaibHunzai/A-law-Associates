@@ -79,16 +79,22 @@ const Footer = () => {
           </div>
           <div className={classes.iocons}>
             <div>
-              <FacebookIcon className={classes.socialIcons} />
+              <a
+                href="https://facebook.com/A-Law-Associates-104632361646740/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FacebookIcon className={classes.ContactNavIcons} />
+              </a>
             </div>
             <div>
-              <InstagramIcon
-                className={classes.socialIcons}
-                style={{ paddingLeft: "20px", paddingRight: "20px" }}
-              />
-            </div>
-            <div>
-              <LinkedInIcon className={classes.socialIcons} />
+              <a
+                href="https://www.instagram.com/alawassociates/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <InstagramIcon className={classes.ContactNavIcons} />
+              </a>
             </div>
           </div>
         </div>
