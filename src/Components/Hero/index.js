@@ -19,12 +19,12 @@ const Hero = () => {
           </Typography>
         </div>
         <div className={classes.heroHeading}>
-          <Typography variant="p" className={classes.heroMainH2}>
+          <Typography variant="subtitle2" className={classes.heroMainH2}>
             Legal Adviser And Tax Consultants
           </Typography>
         </div>
         <div className={classes.heroPara}>
-          <Typography variant="p" className={classes.heroMainP}>
+          <Typography variant="subtitle2" className={classes.heroMainP}>
             A law Associates is one of the best law consultants Lorem ipsum
             dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut aboris nisi ut aliquip ex ea commodo consequat.

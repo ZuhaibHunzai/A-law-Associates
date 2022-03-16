@@ -8,31 +8,26 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${Bg})`,
     backgroundPosition: "center",
     backgroundSize: "cover",
-    // filter: "brightness(90%)",
     display: "flex",
     justifyContent: "left",
     alignItems: "center",
     flexWrap: "wrap",
-    // borderBottomRightRadius: "350px",
+
     [theme.breakpoints.down("md")]: {
       width: "auto",
       height: "60vh",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-
-      // borderBottomRightRadius: "250px",
     },
     [theme.breakpoints.down("sm")]: {
       width: "auto",
       height: "auto",
       backgroundPosition: "left",
-      // borderBottomRightRadius: "150px",
-      // filter: "brightness(40%)",
     },
     [theme.breakpoints.down("sm")]: {
       backgroundImage: "none",
-      // filter: "brightness(40%)",
+      height: "auto",
     },
   },
   HeroTextArea: {
@@ -44,7 +39,6 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-around",
     alignItems: "left",
     flexDirection: "column",
-    // background: "rgba(0,0,0,0.3)",
 
     [theme.breakpoints.down("md")]: {
       justifyContent: "space-around",
@@ -57,7 +51,8 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       width: "auto",
       height: "auto",
-      marginLeft: "10px",
+      paddingTop: "20px",
+      paddingBottom: "20px",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",

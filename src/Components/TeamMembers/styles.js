@@ -32,9 +32,9 @@ const useStyles = makeStyles((theme) => ({
     justifyItems: "center",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#162275",
-    // border: "1px solid #162275",
-    // boxShadow: " -5px -10px #000, 5px 10px  #162275",
+    backgroundColor: "#FFFFFF",
+    color: "#162275",
+    boxShadow: "0px 0px 10px #162275",
   },
   members: {
     width: "300px",

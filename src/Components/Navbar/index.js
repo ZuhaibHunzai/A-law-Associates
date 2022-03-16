@@ -14,7 +14,7 @@ const Navbar = () => {
           <Typography variant="h5" className={classes.logomainH}>
             A Law Associates
           </Typography>
-          <Typography variant="p" className={classes.logomainP}>
+          <Typography variant="subtitle2" className={classes.logomainP}>
             Legal Adviser & Tax Consultant
           </Typography>
         </div>

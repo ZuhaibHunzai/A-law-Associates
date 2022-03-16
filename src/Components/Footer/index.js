@@ -30,7 +30,7 @@ const Footer = () => {
         <div className={classes.footerText}>
           <div>
             <Typography
-              variant="p"
+              variant="subtitle2"
               className={classes.lawAsscoiatesT}
               style={{ fontSize: "22px" }}
             >
@@ -42,21 +42,21 @@ const Footer = () => {
               className={classes.lawAsscoiatesText}
               style={{ paddingTop: "12px" }}
             >
-              <Typography variant="p" className={classes.lawAsscoiates}>
+              <Typography variant="subtitle2" className={classes.lawAsscoiates}>
                 <ul>
                   <li>alawconsultants@gmail.com</li>
                 </ul>
               </Typography>
             </div>
             <div className={classes.lawAsscoiatesText}>
-              <Typography variant="p" className={classes.lawAsscoiates}>
+              <Typography variant="subtitle2" className={classes.lawAsscoiates}>
                 <ul>
                   <li>051-4927179, +92-3235119763</li>
                 </ul>
               </Typography>
             </div>
             <div className={classes.lawAsscoiatesText}>
-              <Typography variant="p" className={classes.lawAsscoiates}>
+              <Typography variant="subtitle2" className={classes.lawAsscoiates}>
                 <ul>
                   <li>
                     Office#1, 1st Floor, 64-C, Al Fazal Plaza, Block C,
@@ -70,8 +70,8 @@ const Footer = () => {
         <div className={classes.SocialMediaIcons}>
           <div>
             <Typography
-              variant="p"
-              classname={classes.lawAsscoiatesT}
+              variant="subtitle2"
+              className={classes.lawAsscoiatesT}
               style={{ fontSize: "22px" }}
             >
               Follow Us
@@ -96,8 +96,8 @@ const Footer = () => {
       <div className={classes.FooterTextCopyRight}>
         <div>
           <Typography
-            variant="p"
-            classname={classes.lawAsscoiates}
+            variant="subtitle2"
+            className={classes.lawAsscoiates}
             style={{ fontSize: "16px" }}
           >
             Copyright 2022 © A Law Associates

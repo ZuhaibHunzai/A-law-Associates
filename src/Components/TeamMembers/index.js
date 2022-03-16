@@ -35,7 +35,10 @@ const TeamMembers = () => {
                 </div>
 
                 <div style={{ paddingBottom: "20px" }}>
-                  <Typography variant="p" className={classes.membersDes}>
+                  <Typography
+                    variant="subtitle1"
+                    className={classes.membersDes}
+                  >
                     {item.desc}
                   </Typography>
                 </div>

@@ -21,11 +21,11 @@ const useStyles = makeStyles((theme) => ({
   },
   logoName: {},
   logo: {
-    width: "80px",
+    width: "85px",
     height: "80px",
     borderRadius: "40px",
     [theme.breakpoints.down("sm")]: {
-      width: "50px",
+      width: "55px",
       height: "50px",
       marginLeft: "0px",
     },
@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     marginLeft: "12px",
     [theme.breakpoints.down("sm")]: {
-      marginLeft: "6px",
+      display: "none",
     },
   },
   logoTextMainH: {

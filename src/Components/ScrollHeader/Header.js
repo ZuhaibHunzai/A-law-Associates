@@ -35,7 +35,7 @@ const ScrollHeader = () => {
               <div className={classes.logoText}>
                 <div>
                   <Typography
-                    variant="p"
+                    variant="subtitle2"
                     className={classes.logoTextMainH}
                     style={{ color: "#fff" }}
                   >
@@ -43,11 +43,7 @@ const ScrollHeader = () => {
                   </Typography>
                 </div>
                 <div>
-                  <Typography
-                    variant="p"
-                    logoTextMainP
-                    style={{ color: "#fff" }}
-                  >
+                  <Typography variant="subtitle2" style={{ color: "#fff" }}>
                     Legal Adviser & Tax Consultant
                   </Typography>
                 </div>

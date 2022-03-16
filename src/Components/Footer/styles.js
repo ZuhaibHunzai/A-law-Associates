@@ -32,10 +32,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   footerText: {
-    width: "300px",
+    width: "400px",
+    height: "300px",
     color: "#fff",
     [theme.breakpoints.down("md")]: {
-      marginTop: "20px",
       display: "flex",
       justifyContent: "left",
 
@@ -51,9 +51,7 @@ const useStyles = makeStyles((theme) => ({
       marginTop: "12px",
     },
   },
-  lawAsscoiates: {
-    paddingTop: "20px",
-  },
+
   footerP: {
     width: "300px",
   },

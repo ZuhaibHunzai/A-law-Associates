@@ -18,7 +18,7 @@ const ContactNav = () => {
             <MailOutlineIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="p" className={classes.emailText}>
+            <Typography variant="subtitle2" className={classes.emailText}>
               alawconsultants@gmail.com
             </Typography>
           </div>
@@ -30,7 +30,7 @@ const ContactNav = () => {
             <PhoneIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="p" className={classes.ContactNavIcon}>
+            <Typography variant="subtitle2" className={classes.ContactNavIcon}>
               051-4927179
             </Typography>
           </div>
@@ -42,7 +42,7 @@ const ContactNav = () => {
             <LocationOnIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="p" className={classes.addressText}>
+            <Typography variant="subtitle2" className={classes.addressText}>
               Office#1 Al Fazal Plaza, Sadiqabad More, Rwp
             </Typography>
           </div>
@@ -54,7 +54,7 @@ const ContactNav = () => {
             <QueryBuilderIcon className={classes.ContactNavIcons} />
           </div>
           <div>
-            <Typography variant="p" className={classes.timeText}>
+            <Typography variant="subtitle2" className={classes.timeText}>
               09:00 AM - 10:00 PM
             </Typography>
           </div>
@@ -74,7 +74,7 @@ const ContactNav = () => {
           </div>
           <div>
             <a
-              href="https://twitter.com/"
+              href="https://www.instagram.com/alawassociates/"
               target="_blank"
               rel="noreferrer noopener"
             >

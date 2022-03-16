@@ -38,6 +38,9 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       fontSize: "50px",
     },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "30px",
+    },
   },
   serviceCArds: {
     justifyContent: "center",

@@ -15,7 +15,7 @@ const CounterUp = () => {
             className={classes.couterup}
           />
         </div>
-        <Typography variant="p" className={classes.counterP}>
+        <Typography variant="subtitle2" className={classes.counterP}>
           No of Clients
         </Typography>
       </div>
@@ -28,7 +28,7 @@ const CounterUp = () => {
             className={classes.couterup}
           />
         </div>
-        <Typography variant="p" className={classes.counterP}>
+        <Typography variant="subtitle2" className={classes.counterP}>
           Projects Completed
         </Typography>
       </div>
@@ -41,7 +41,7 @@ const CounterUp = () => {
             className={classes.couterup}
           />
         </div>
-        <Typography variant="p" className={classes.counterP}>
+        <Typography variant="subtitle2" className={classes.counterP}>
           Years of Experience
         </Typography>
       </div>

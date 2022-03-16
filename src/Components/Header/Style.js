@@ -1,5 +1,15 @@
 import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
+  AppBar: {
+    "&.MuiAppBar-root": {
+      display: "block",
+      position: "fixed",
+      top: "-100px",
+      left: "0",
+      right: "0",
+      transition: "top 800ms",
+    },
+  },
   root: {
     flexGrow: 1,
     display: "flex",
@@ -36,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     marginLeft: "12px",
     [theme.breakpoints.down("sm")]: {
-      marginLeft: "6px",
+      display: "none",
     },
   },
   logoTextMainH: {
@@ -76,11 +86,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     height: "12vh",
     backgroundColor: "#fff",
-    position: "fixed",
-    left: "0",
-    right: "0",
-    top: "0",
-    borderBottom: "1px solid #162275",
+    borderBottom: "1px solid rgb(230, 230, 230)",
   },
   bookingBtn: {
     marginRight: "45px",

@@ -2,13 +2,15 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   card: {
-    width: "320px",
-    height: "430px",
+    width: "280px",
+    height: "auto",
     backgroundColor: "#fff",
     display: "flex",
     justifyContent: "center",
     borderTopRightRadius: "20px",
     borderTopLeftRadius: "20px",
+    borderBottomLeftRadius: "20px",
+    borderBottomRightRadius: "20px",
     "&:hover": {
       transform: "translateY(-5px)",
       transition: "0.5s ease",
@@ -24,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: "12px",
   },
   cardImg: {
-    width: "320px",
+    width: "280px",
     height: "250px",
     borderTopRightRadius: "20px",
     borderTopLeftRadius: "20px",
@@ -32,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   CardsMain: {
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr ",
-    gridGap: "30px",
+    gridGap: "50px",
     justifyItems: "space-between",
 
     [theme.breakpoints.down("md")]: {
