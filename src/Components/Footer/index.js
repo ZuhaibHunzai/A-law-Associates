@@ -1,7 +1,6 @@
 import { Typography } from "@material-ui/core";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Logo from "../../Assets/Images/logo.jpg";
 import useStyles from "./styles";
 
@@ -51,7 +50,7 @@ const Footer = () => {
             <div className={classes.lawAsscoiatesText}>
               <Typography variant="subtitle2" className={classes.lawAsscoiates}>
                 <ul>
-                  <li>051-4927179, +92-3235119763</li>
+                  <li>+98-3235119763</li>
                 </ul>
               </Typography>
             </div>

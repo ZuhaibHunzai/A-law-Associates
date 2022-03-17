@@ -55,7 +55,7 @@ const ContactNav = () => {
           </div>
           <div>
             <Typography variant="subtitle2" className={classes.timeText}>
-              09:00 AM - 10:00 PM
+              10:00 AM - 08:00 PM
             </Typography>
           </div>
         </div>

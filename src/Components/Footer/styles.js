@@ -51,7 +51,11 @@ const useStyles = makeStyles((theme) => ({
       marginTop: "12px",
     },
   },
-
+  lawAsscoiatesT: {
+    [theme.breakpoints.down("md")]: {
+      marginTop: "25px",
+    },
+  },
   footerP: {
     width: "300px",
   },
