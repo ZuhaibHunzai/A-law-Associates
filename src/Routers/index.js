@@ -7,17 +7,17 @@ import HomePage from "../Pages/Home";
 import ServicesPage from "../Pages/Services";
 import TeamPage from "../Pages/Team";
 import HeaderCon from "../Components/HeaderConditional";
-import LegalCasesPage from "../Pages/LegalCases";
-import FormRegPage from "../Pages/FormRegistration";
-import CompanyRegPage from "../Pages/CompanyRegistration";
-import NtnGstRegPage from "../Pages/NtnGstRegistration";
-import TradeMarkPage from "../Pages/TradeMarkRegistration";
-import IncomeSalesPage from "../Pages/IncomeSaleTaxReturns";
-import NgoSocietyTrustRegPage from "../Pages/NgoSocietyTrustRegistration";
-import ChamberPage from "../Pages/ChamberOfCommerceRegistration";
+import NgoSocietyTrustRegPage from "../Pages/CriminalLitigationPage";
+import ChamberPage from "../Pages/ConstitutionalMattersPage";
 
 import UpdatesPage from "../Pages/Updates";
-import GeneralServicesPage from "../Pages/GeneralServices";
+import TaxMattersPage from "../Pages/TaxMattersPage";
+import CorporateMattersPage from "../Pages/CorporateMattersPage";
+import FamilyMattersPage from "../Pages/FamilyMattersPage";
+import CivilLitigationPage from "../Pages/CivilLitigationPage";
+import CriminalLitigationPage from "../Pages/CriminalLitigationPage";
+import ConstitutionalMattersPage from "../Pages/ConstitutionalMattersPage";
+import ServicesMattersPage from "../Pages/ServicesMattersPage";
 
 const Routers = () => {
   return (
@@ -31,15 +31,30 @@ const Routers = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/new-updates" element={<UpdatesPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/legal-cases-matters" element={<LegalCasesPage />} />
-          <Route path="/company-registration" element={<CompanyRegPage />} />
-          <Route path="/form-registration" element={<FormRegPage />} />
-          <Route path="/ntn-gst-registration" element={<NtnGstRegPage />} />
-          <Route path="/trade-mark-registration" element={<TradeMarkPage />} />
-          <Route path="general-services" element={<GeneralServicesPage />} />
+          <Route path="/services/tax-maters" element={<TaxMattersPage />} />
           <Route
-            path="/income-sales-tax-returns"
-            element={<IncomeSalesPage />}
+            path="/services/corporate-matters"
+            element={<CorporateMattersPage />}
+          />
+          <Route
+            path="/services/family-matters"
+            element={<FamilyMattersPage />}
+          />
+          <Route
+            path="/services/civil-litigation"
+            element={<CivilLitigationPage />}
+          />
+          <Route
+            path="/services/criminal-litigation"
+            element={<CriminalLitigationPage />}
+          />
+          <Route
+            path="/services/constitutional-matters"
+            element={<ConstitutionalMattersPage />}
+          />
+          <Route
+            path="/services/Services-Matters"
+            element={<ServicesMattersPage />}
           />
           <Route
             path="/ngo-society-trust-registration"

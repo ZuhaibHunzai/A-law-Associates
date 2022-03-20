@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     height: "250px",
     [theme.breakpoints.down("md")]: {
       display: "flex",
-      justifyContent: "left",
+      justifyContent: "center",
       flexDirection: "column",
       height: "auto",
     },
@@ -29,6 +29,13 @@ const useStyles = makeStyles((theme) => ({
       width: "auto",
       flexDirection: "column",
       paddingLeft: "20px",
+    },
+  },
+  footerlogoImg: {
+    width: "80px",
+    height: "80px",
+    [theme.breakpoints.down("md")]: {
+      marginTop: "12px",
     },
   },
   footerText: {
@@ -62,7 +69,6 @@ const useStyles = makeStyles((theme) => ({
   SocialMediaIcons: {
     display: "flex",
     justifyContent: "top",
-    alignItems: "left",
 
     flexDirection: "column",
     [theme.breakpoints.down("md")]: {

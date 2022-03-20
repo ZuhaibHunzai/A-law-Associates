@@ -64,21 +64,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   serviceH: {
-    fontSize: "35px",
-    fontWeight: "400",
-    [theme.breakpoints.down("md")]: {
-      justifyContent: "center",
-      width: "400px",
-      height: "auto",
-    },
-    [theme.breakpoints.down("sm")]: {
-      justifyContent: "center",
-      width: "300px",
-      height: "auto",
-    },
-  },
-  serviceH2: {
-    fontSize: "20px",
+    fontSize: "30px",
     fontWeight: "400",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
@@ -92,7 +78,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   serviceP: {
-    width: "450px",
+    width: "400px",
     fontWeight: "300",
     fontSize: "22px",
     textAlign: "justify",
@@ -113,9 +99,6 @@ const useStyles = makeStyles((theme) => ({
   },
   servicesBodyTextP: {
     width: "100%",
-  },
-  location: {
-    Window: "100%",
   },
 }));
 

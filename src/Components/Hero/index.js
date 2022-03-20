@@ -25,9 +25,9 @@ const Hero = () => {
         </div>
         <div className={classes.heroPara}>
           <Typography variant="subtitle2" className={classes.heroMainP}>
-            A law Associates is one of the best law consultants Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut aboris nisi ut aliquip ex ea commodo consequat.
+            A Law Associates is located in Islamabad/ Rawalpindi, Pakistan, and
+            offers a wide variety of legal services to clients. Practice Areas
+            mainly includes Taxation, as well as Corporate...
           </Typography>
         </div>
         <div style={{ paddingTop: "20px" }}>

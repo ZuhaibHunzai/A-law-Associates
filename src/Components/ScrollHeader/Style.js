@@ -21,9 +21,9 @@ const useStyles = makeStyles((theme) => ({
   },
   logoName: {},
   logo: {
-    width: "85px",
-    height: "80px",
-    borderRadius: "40px",
+    width: "60px",
+    height: "60px",
+    borderRadius: "30px",
     [theme.breakpoints.down("sm")]: {
       width: "55px",
       height: "50px",
@@ -32,6 +32,8 @@ const useStyles = makeStyles((theme) => ({
   },
   logoText: {
     display: "flex",
+    width: "auto",
+    height: "auto",
     flexDirection: "column",
     justifyContent: "center",
     marginLeft: "12px",
@@ -41,7 +43,7 @@ const useStyles = makeStyles((theme) => ({
   },
   logoTextMainH: {
     display: "flex",
-    fontSize: "30px",
+    fontSize: "25px",
     fontWeight: "600",
     [theme.breakpoints.down("sm")]: {
       display: "flex",

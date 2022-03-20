@@ -19,7 +19,7 @@ const Header = React.forwardRef((props, ref) => {
       <Toolbar className={classes.Toolbar}>
         <div className={classes.logoDiv}>
           <div className={classes.logoName}>
-            <img width="140px" className={classes.logo} src={Logo} alt="logo" />
+            <img className={classes.logo} src={Logo} alt="logo" />
           </div>
           <div className={classes.logoText}>
             <div>
@@ -32,7 +32,7 @@ const Header = React.forwardRef((props, ref) => {
               </Typography>
             </div>
             <div>
-              <Typography variant="subtitle2" style={{ color: "#162275" }}>
+              <Typography variant="subtitle1" style={{ color: "#162275" }}>
                 Legal Adviser & Tax Consultant
               </Typography>
             </div>

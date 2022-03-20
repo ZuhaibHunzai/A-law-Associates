@@ -31,10 +31,10 @@ const useStyles = makeStyles((theme) => ({
   },
   logoName: {},
   logo: {
-    width: "80px",
-    height: "80px",
-    borderRadius: "40px",
-    [theme.breakpoints.down("sm")]: {
+    width: "60px",
+    height: "60px",
+    borderRadius: "30px",
+    [theme.breakpoints.down("md")]: {
       width: "50px",
       height: "50px",
       marginLeft: "0px",
@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
   },
   logoText: {
     display: "flex",
+    height: "auto",
     flexDirection: "column",
     justifyContent: "center",
     marginLeft: "12px",
@@ -50,8 +51,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logoTextMainH: {
+    padding: "0px",
     display: "flex",
-    fontSize: "30px",
+    fontSize: "25px",
     fontWeight: "600",
     [theme.breakpoints.down("sm")]: {
       display: "flex",
@@ -62,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
   logoTextMainP: {
     display: "flex",
     fontSize: "25px",
+    paddingBottom: "12px",
     [theme.breakpoints.down("sm")]: {
       fontSize: "12px",
     },

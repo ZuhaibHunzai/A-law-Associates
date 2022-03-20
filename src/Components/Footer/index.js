@@ -11,11 +11,7 @@ const Footer = () => {
       <div className={classes.FooterData}>
         <div className={classes.footerData1}>
           <div>
-            <img
-              src={Logo}
-              alt="logo"
-              style={{ width: "80px", height: "80px" }}
-            />
+            <img src={Logo} alt="logo" className={classes.footerlogoImg} />
           </div>
           <div className={classes.footerP}>
             <Typography variant="h5">A Law Associates</Typography>
@@ -43,7 +39,7 @@ const Footer = () => {
             >
               <Typography variant="subtitle2" className={classes.lawAsscoiates}>
                 <ul>
-                  <li>alawconsultants@gmail.com</li>
+                  <li>alaw.associates@yahoo.com</li>
                 </ul>
               </Typography>
             </div>

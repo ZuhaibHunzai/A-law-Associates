@@ -19,7 +19,7 @@ const ContactNav = () => {
           </div>
           <div>
             <Typography variant="subtitle2" className={classes.emailText}>
-              alawconsultants@gmail.com
+              alaw.associates@yahoo.com
             </Typography>
           </div>
         </div>

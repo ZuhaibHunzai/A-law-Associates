@@ -17,8 +17,8 @@ const useStyles = makeStyles((theme) => ({
       width: "auto",
       height: "60vh",
       display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
+      justifyContent: "left",
+      alignItems: "left",
     },
     [theme.breakpoints.down("sm")]: {
       width: "auto",
@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: "space-around",
       alignItems: "left",
       flexDirection: "column",
-      marginLeft: "0px",
+      marginLeft: "100px",
       width: "auto",
       height: "auto",
     },
@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
       display: "flex",
       fontSize: "30px",
       fontWeight: "500",
-
+      marginLeft: "10px",
       textAlign: "center",
     },
     [theme.breakpoints.down("sm")]: {

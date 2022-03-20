@@ -22,23 +22,32 @@ const About = () => {
         <div className={classes.servicesBodyTextDiv}>
           <div className={classes.servicesBodyTextH}>
             <Typography variant="h2" className={classes.serviceH}>
-              Raja Abid Hussain
+              A Law Associates
             </Typography>
           </div>
           <div className={classes.servicesBodyTextH}>
             <Typography variant="h2" className={classes.serviceH2}>
-              Member Islamabad / Rawalpindi Tax Bar Association
+              Legal Adviser & Tax Consultant
             </Typography>
           </div>
           <div className={classes.servicesbodyTextP}>
             <Typography variant="body2" className={classes.serviceP}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              A Law Associates is located in Islamabad/ Rawalpindi, Pakistan,
+              and offers a wide variety of legal services to clients. Practice
+              Areas mainly includes Taxation, as well as Corporate, Company,
+              Services Metters, Constitutional Metters, Civil, Family, and
+              Criminal Litigations, Property Disputes (Selling/Buying and
+              Letting), etc.<br></br>
+              <br></br>A Law Associates, are committed to clients’ interests.
+              They have vast experience working with individuals, corporations,
+              civil society organizations including NGOs, governmental bodies,
+              and public sector organizations, offering document preparation,
+              advice, and representation in trials, appeal courts, and/or
+              tribunal.<br></br>
+              <br></br>A Law Associates provides comprehensive legal services
+              based on clients’ specific needs. Our legal team is dedicated to
+              the highest levels of service and client satisfaction, working to
+              provide solutions that resolve clients’ legal concerns.
             </Typography>
           </div>
         </div>
