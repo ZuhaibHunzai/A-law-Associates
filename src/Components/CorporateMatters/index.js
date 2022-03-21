@@ -151,6 +151,7 @@ const CorporateMatters = () => {
           </div>
           <div style={{ marginTop: "12px" }}>
             <Buttons
+              className={classes.contactBtn}
               type="button"
               buttonStyle="btn--primary--outlined"
               buttonSize="btn--medium"

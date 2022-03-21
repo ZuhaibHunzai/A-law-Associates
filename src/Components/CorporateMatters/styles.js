@@ -105,6 +105,12 @@ const useStyles = makeStyles((theme) => ({
   servicesBodyTextP: {
     width: "100%",
   },
+  contactBtn: {
+    [theme.breakpoints.down("sm")]: {
+      justifyContent: "center",
+      marginLeft: "12px",
+    },
+  },
 }));
 
 export default useStyles;
