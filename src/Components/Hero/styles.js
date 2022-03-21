@@ -111,7 +111,6 @@ const useStyles = makeStyles((theme) => ({
       display: "flex",
       width: "auto",
       fontSize: "20px",
-      textAlign: "center",
     },
   },
   heroMainP: {

@@ -5,12 +5,15 @@ const useStyles = makeStyles((theme) => ({
     height: "350px",
     backgroundColor: "#162275",
     display: "flex",
-    justifyContent: "center",
+    justifyContent: "space-around",
     color: "#fff",
     alignItems: "center",
     flexDirection: "column",
     borderTop: "1px solid #fff",
     [theme.breakpoints.down("md")]: {
+      height: "350px",
+    },
+    [theme.breakpoints.down("sm")]: {
       height: "auto",
     },
   },
@@ -22,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       display: "flex",
       justifyContent: "center",
-      flexDirection: "column",
+      alignItems: "top",
+      // flexDirection: "column",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
@@ -31,6 +35,11 @@ const useStyles = makeStyles((theme) => ({
       paddingLeft: "20px",
     },
   },
+  // footerData1: {
+  //   display: "flex",
+  //   justifyContent: "center",
+  //   // alignItems: "top",
+  // },
   footerlogoImg: {
     width: "80px",
     height: "80px",
@@ -76,10 +85,12 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: "left",
       flexDirection: "column",
       height: "auto",
+    },
+    [theme.breakpoints.down("sm")]: {
       marginTop: "20px",
     },
   },
-  iocons: {
+  iconsMain: {
     display: "flex",
     justifyContent: "left",
     paddingTop: "12px",
@@ -87,9 +98,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("sm")]: {
       width: "300px",
       display: "flex",
-      justifyContent: "center",
-      textAlign: "center",
-      alignItems: "center",
+      marginLeft: "40px",
     },
   },
   socialIcons: {

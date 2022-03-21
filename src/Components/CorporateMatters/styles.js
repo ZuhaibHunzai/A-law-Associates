@@ -76,6 +76,7 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: "center",
       width: "300px",
       height: "auto",
+      paddingLeft: "12px",
     },
   },
   serviceP: {
@@ -91,8 +92,11 @@ const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
-      width: "300px",
+      width: "auto",
       height: "auto",
+      paddingLeft: "12px",
+      paddingRight: "12px",
+      textAlign: "left",
     },
   },
   servicesBodyTextH: {

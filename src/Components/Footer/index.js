@@ -72,7 +72,7 @@ const Footer = () => {
               Follow Us
             </Typography>
           </div>
-          <div className={classes.iocons}>
+          <div className={classes.iconsMain}>
             <div>
               <a
                 href="https://facebook.com/A-Law-Associates-104632361646740/"
