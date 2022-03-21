@@ -53,9 +53,13 @@ const useStyles = makeStyles((theme) => ({
       height: "auto",
       paddingTop: "20px",
       paddingBottom: "20px",
+      marginLeft: "0px",
+      marginTop: "30px",
       display: "flex",
       justifyContent: "center",
-      alignItems: "center",
+      alignItems: "left",
+      paddingLeft: "12px",
+      paddingRight: "12px",
     },
   },
   heroMainH: {
@@ -84,7 +88,6 @@ const useStyles = makeStyles((theme) => ({
       display: "flex",
       width: "450px",
       fontSize: "22px",
-      marginLeft: "10px",
     },
     [theme.breakpoints.down("md")]: {
       marginLeft: "10px",
@@ -127,8 +130,6 @@ const useStyles = makeStyles((theme) => ({
       display: "flex",
       width: "auto",
       paddingTop: "20px",
-      paddingRight: "12px",
-      paddingLeft: "12px",
       textAlign: "justify",
       fontSize: "18px",
     },
@@ -149,6 +150,12 @@ const useStyles = makeStyles((theme) => ({
     height: "500px",
     [theme.breakpoints.down("md")]: {
       display: "none",
+    },
+  },
+  contactBtnDiv: {
+    marginTop: "20px",
+    [theme.breakpoints.down("md")]: {
+      marginLeft: "12px",
     },
   },
 }));

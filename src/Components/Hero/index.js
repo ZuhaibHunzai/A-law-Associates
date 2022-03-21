@@ -30,11 +30,12 @@ const Hero = () => {
             mainly includes Taxation, as well as Corporate...
           </Typography>
         </div>
-        <div style={{ paddingTop: "20px" }}>
+        <div className={classes.contactBtnDiv}>
           <Buttons
             type="button"
             buttonStyle="btn--primary--outlined"
             buttonSize="btn--medium"
+            className={classes.contactBtn}
             onClick={() => {
               handleRoute("/about");
             }}

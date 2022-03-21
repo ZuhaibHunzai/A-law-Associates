@@ -26,14 +26,17 @@ const CorporateMatters = () => {
             className={classes.servicesBodyImg}
           />
         </div>
-        <div className={classes.servicesBodyTextDiv}>
+        <div
+          className={classes.servicesBodyTextDiv}
+          style={{ paddingTop: "20px" }}
+        >
           <div className={classes.servicesBodyTextH}>
             <Typography variant="h2" className={classes.serviceH}>
               Corporate Matters
             </Typography>
           </div>
           <div className={classes.servicesbodyTextP}>
-            <Typography variant="body2" className={classes.serviceP}>
+            <Typography variant="subtitle1" className={classes.serviceP}>
               A Law Associates provides legal assistance in connection with
               legal due diligence, Company Incorporation, Commercial Litigation,
               Arbitration, Intellectual Property Rights, Banking and finance,

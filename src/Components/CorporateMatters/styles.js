@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     width: "650px",
     height: "400px",
     [theme.breakpoints.down("md")]: {
-      width: "400px",
+      width: "650px",
       height: "400px",
     },
     [theme.breakpoints.down("sm")]: {
@@ -86,7 +86,7 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "12px",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
-      width: "400px",
+      width: "650px",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
