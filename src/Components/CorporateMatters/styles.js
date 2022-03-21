@@ -4,7 +4,8 @@ const useStyles = makeStyles((theme) => ({
   servicesBodyMain: {
     display: "flex",
     justifyContent: "center",
-
+    flexDirection: "column",
+    alignItems: "center",
     height: "auto",
     flexWrap: "wrap",
     paddingTop: "30px",
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   servicesImgDiv: {
     display: "flex",
     width: "650px",
-    height: "650px",
+    height: "400px",
     [theme.breakpoints.down("md")]: {
       width: "400px",
       height: "400px",
@@ -35,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   servicesBodyTextDiv: {
-    paddingLeft: "50px",
+    // paddingLeft: "50px",
     [theme.breakpoints.down("md")]: {
       paddingTop: "30px",
       paddingLeft: "20px",
@@ -78,7 +79,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   serviceP: {
-    width: "400px",
+    width: "650px",
     fontWeight: "300",
     fontSize: "22px",
     textAlign: "justify",

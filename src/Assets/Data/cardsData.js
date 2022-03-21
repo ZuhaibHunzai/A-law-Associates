@@ -16,7 +16,7 @@ export const cardsData = [
   {
     src: company,
     title: "Corporate Matters",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aboris nisi",
+    desc: "A Law Associates provides legal assistance in connection with legal due diligence, Company Incorporation, Commercial Litigation... ",
     link: "services/corporate-matters",
   },
   {
@@ -49,18 +49,6 @@ export const cardsData = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aboris nisi",
     link: "services/Services-Matters",
   },
-  // {
-  //   src: society,
-  //   title: "NGO / Society / Trust Registration",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aboris nisi",
-  //   link: "ngo-society-trust-registration",
-  // },
-  // {
-  //   src: chamber,
-  //   title: "Chamber of Commerce Registration",
-  //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aboris nisi",
-  //   link: "chamber-of-commerce-registration",
-  // },
 ];
 
 export const membersData = [
