@@ -10,7 +10,7 @@ const CounterUp = () => {
         <div>
           <CountUp
             useEasing={true}
-            end={3000}
+            end={2763}
             duration={5}
             className={classes.couterup}
           />
@@ -23,7 +23,7 @@ const CounterUp = () => {
         <div>
           <CountUp
             useEasing={true}
-            end={10000}
+            end={91537}
             duration={5}
             className={classes.couterup}
           />

@@ -15,6 +15,10 @@ const useStyles = makeStyles((theme) => ({
   couterup: {
     fontSize: "70px",
     fontWeight: "bold",
+    [theme.breakpoints.down("md")]: {
+      fontSize: "40px",
+      fontWeight: "bold",
+    },
   },
   counter: {
     display: "flex",
