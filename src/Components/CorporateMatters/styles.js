@@ -105,6 +105,9 @@ const useStyles = makeStyles((theme) => ({
   servicesBodyTextP: {
     width: "100%",
   },
+  corporatesAgrements: {
+    fontSize: "18px",
+  },
   contactBtn: {
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
