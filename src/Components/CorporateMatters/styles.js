@@ -27,8 +27,8 @@ const useStyles = makeStyles((theme) => ({
       height: "400px",
     },
     [theme.breakpoints.down("sm")]: {
-      width: "300px",
-      height: "300px",
+      width: "90%",
+      height: "90%",
     },
   },
   servicesBodyImg: {
@@ -87,23 +87,17 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "12px",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
-      width: "650px",
-      height: "auto",
-    },
-    [theme.breakpoints.down("sm")]: {
-      justifyContent: "center",
-      width: "auto",
-      height: "auto",
       paddingLeft: "12px",
       paddingRight: "12px",
-      textAlign: "left",
+      width: "90%",
+      height: "auto",
     },
   },
   servicesBodyTextH: {
     width: "100%",
   },
   servicesBodyTextP: {
-    width: "100%",
+    width: "90%",
   },
   corporatesAgrements: {
     fontSize: "18px",

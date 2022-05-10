@@ -43,7 +43,7 @@ const CriminalLitigation = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Typography>
           </div>
-          <div style={{ marginTop: "12px" }}>
+          <div style={{ marginTop: "12px", marginLeft: "20px" }}>
             <Buttons
               type="button"
               buttonStyle="btn--primary--outlined"

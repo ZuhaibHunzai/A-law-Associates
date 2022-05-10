@@ -34,16 +34,34 @@ const CivilLitigation = () => {
           </div>
           <div className={classes.servicesbodyTextP}>
             <Typography variant="body2" className={classes.serviceP}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Our Law Firm knows how to face challenges arising out of difficult
+              and complex civil cases. We are a well-trained team, working
+              collaboratively in order to win lawsuits. We are confident that we
+              can achieve the needs and best interests of our clients. We have a
+              team of widely known Advocates and Lawyers specializing in all
+              areas of civil litigation, who practice in Civil Courts, and High
+              Courts. Our Lawyers keep fully engage with clients at all stages
+              of their cases that occur during litigation. Our team is highly
+              experienced and has dealt with hundreds of cases in Pakistan with
+              a proven record of accomplishment. Our specialized team studies
+              all available options in relation to cases and then advises client
+              on the best legal option before the courts. We are sufficiently
+              experienced and professionally equipped to fight in order to
+              achieve the success. Our professional team deals with all aspects
+              of juridical administrations facing our clients. We work hard to
+              utilize effective measures in order to shun and avoid problems. We
+              take aggressive legal approach to protect clients’ rights and
+              business plans from others’ aggression. We have very vigilant and
+              approach in dealing with Civil Litigation including: Partition of
+              Properties, Cancellation of Documents, Specific Performance of
+              Contracts, Restoration of Possession of Properties, Permanent
+              Injunctions, Suits for Dissolution of Partnerships, Rendition of
+              Accounts, Recovery of Money and Mesne Profits, Declaration of
+              Rights with Consequential Relief, Benami Transactions, Recovery of
+              Damages, Succession Certificates, Stay Orders, etc.
             </Typography>
           </div>
-          <div style={{ marginTop: "12px" }}>
+          <div style={{ marginTop: "12px", marginLeft: "20px" }}>
             <Buttons
               type="button"
               buttonStyle="btn--primary--outlined"

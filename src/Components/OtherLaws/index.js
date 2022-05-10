@@ -14,7 +14,7 @@ const ServicesMatters = () => {
   return (
     <div className={classes.LegalMain}>
       <div>
-        <ServicesHeader>Services Matters</ServicesHeader>
+        <ServicesHeader>Other Laws</ServicesHeader>
       </div>
       <div className={classes.servicesBodyMain}>
         <div className={classes.servicesImgDiv}>
@@ -27,21 +27,21 @@ const ServicesMatters = () => {
         <div className={classes.servicesBodyTextDiv}>
           <div className={classes.servicesBodyTextH}>
             <Typography variant="h2" className={classes.serviceH}>
-              Services Matters
+              Other Laws
             </Typography>
           </div>
           <div className={classes.servicesbodyTextP}>
             <Typography variant="body2" className={classes.serviceP}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Our Law Firm deals with cases of Special Laws relating to: <br />
+              Elections, Cyber Crime, Services Metters, Consumer Protection,
+              Environmental Protection, Electricity, Gas and Petroleum, Excise
+              and Customs, Import & Export, Ejectment of tenant, Fixation of
+              fair rent, Recovery of rent amount, Rent Appeals, Recovery of Bad
+              Debts and Loan by initiating Civil and Criminal proceeding against
+              defaulters in very vigilant and aggressive manner.
             </Typography>
           </div>
-          <div style={{ marginTop: "12px" }}>
+          <div style={{ marginTop: "12px", marginLeft: "20px" }}>
             <Buttons
               type="button"
               buttonStyle="btn--primary--outlined"

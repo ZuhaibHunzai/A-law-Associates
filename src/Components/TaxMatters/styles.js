@@ -4,7 +4,7 @@ const useStyles = makeStyles((theme) => ({
   servicesBodyMain: {
     display: "flex",
     justifyContent: "center",
-
+    alignItems: "center",
     height: "auto",
     flexWrap: "wrap",
     paddingTop: "30px",
@@ -26,8 +26,8 @@ const useStyles = makeStyles((theme) => ({
       height: "400px",
     },
     [theme.breakpoints.down("sm")]: {
-      width: "300px",
-      height: "300px",
+      width: "90%",
+      height: "auto",
     },
   },
   servicesBodyImg: {
@@ -35,13 +35,17 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   servicesBodyTextDiv: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column",
     paddingLeft: "50px",
     [theme.breakpoints.down("md")]: {
       paddingTop: "30px",
       paddingLeft: "20px",
     },
     [theme.breakpoints.down("sm")]: {
-      paddingLeft: "0px",
+      paddingLeft: "12px",
       paddingTop: "30px",
     },
   },
@@ -70,6 +74,7 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: "center",
       width: "400px",
       height: "auto",
+      paddingLeft: "12px",
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
@@ -85,13 +90,14 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "12px",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
-      width: "400px",
+      width: "80%",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
-      width: "300px",
+      width: "90%",
       height: "auto",
+      paddingLeft: "12px",
     },
   },
   servicesBodyTextH: {

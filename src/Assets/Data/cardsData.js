@@ -22,7 +22,7 @@ export const cardsData = [
   {
     src: form,
     title: "Civil Litigation",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aboris nisi",
+    desc: "Our Law Firm knows how to face challenges arising out of difficult and complex civil cases...",
     link: "services/civil-litigation",
   },
   {
@@ -45,9 +45,9 @@ export const cardsData = [
   },
   {
     src: tax,
-    title: "Services Matters",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut aboris nisi",
-    link: "services/Services-Matters",
+    title: "Other Laws",
+    desc: "Our Law Firm deals with cases of Special Laws relating to: Elections, Cyber Crime, Services Metters, Consumer...",
+    link: "services/other-laws",
   },
 ];
 

@@ -22,12 +22,8 @@ const useStyles = makeStyles((theme) => ({
     width: "650px",
     height: "650px",
     [theme.breakpoints.down("md")]: {
-      width: "400px",
-      height: "400px",
-    },
-    [theme.breakpoints.down("sm")]: {
-      width: "300px",
-      height: "300px",
+      width: "90%",
+      height: "auto",
     },
   },
   servicesBodyImg: {
@@ -68,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "400",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
+      paddingLeft: "20px",
       width: "400px",
       height: "auto",
     },
@@ -82,6 +79,7 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: "400",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
+      paddingLeft: "20px",
       width: "400px",
       height: "auto",
     },
@@ -99,13 +97,9 @@ const useStyles = makeStyles((theme) => ({
     paddingTop: "12px",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
-      width: "400px",
+      width: "90%",
       height: "auto",
-    },
-    [theme.breakpoints.down("sm")]: {
-      justifyContent: "center",
-      width: "300px",
-      height: "auto",
+      paddingLeft: "20px",
     },
   },
   servicesBodyTextH: {

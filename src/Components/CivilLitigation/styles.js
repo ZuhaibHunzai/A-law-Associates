@@ -4,7 +4,8 @@ const useStyles = makeStyles((theme) => ({
   servicesBodyMain: {
     display: "flex",
     justifyContent: "center",
-
+    flexDirection: "column",
+    alignItems: "center",
     height: "auto",
     flexWrap: "wrap",
     paddingTop: "30px",
@@ -22,12 +23,8 @@ const useStyles = makeStyles((theme) => ({
     width: "650px",
     height: "650px",
     [theme.breakpoints.down("md")]: {
-      width: "400px",
-      height: "400px",
-    },
-    [theme.breakpoints.down("sm")]: {
-      width: "300px",
-      height: "300px",
+      width: "90%",
+      height: "auto",
     },
   },
   servicesBodyImg: {
@@ -35,8 +32,11 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   servicesBodyTextDiv: {
-    paddingLeft: "50px",
+    width: "650px",
+    paddingTop: "30px",
     [theme.breakpoints.down("md")]: {
+      width: "90%",
+      height: "auto",
       paddingTop: "30px",
       paddingLeft: "20px",
     },
@@ -57,41 +57,34 @@ const useStyles = makeStyles((theme) => ({
       width: "250px",
       height: "auto",
     },
-    [theme.breakpoints.down("sm")]: {
-      justifyContent: "center",
-      width: "300",
-      height: "auto",
-    },
   },
   serviceH: {
     fontSize: "30px",
     fontWeight: "400",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
+      paddingLeft: "30px",
       width: "400px",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
+      paddingLeft: "20px",
       width: "300px",
       height: "auto",
     },
   },
   serviceP: {
-    width: "400px",
+    width: "650px",
     fontWeight: "300",
     fontSize: "22px",
     textAlign: "justify",
     paddingTop: "12px",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
-      width: "400px",
+      width: "90%",
       height: "auto",
-    },
-    [theme.breakpoints.down("sm")]: {
-      justifyContent: "center",
-      width: "300px",
-      height: "auto",
+      paddingLeft: "20px",
     },
   },
   servicesBodyTextH: {

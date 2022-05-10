@@ -53,7 +53,7 @@ const Routers = () => {
             element={<ConstitutionalMattersPage />}
           />
           <Route
-            path="/services/Services-Matters"
+            path="/services/other-laws"
             element={<ServicesMattersPage />}
           />
           <Route
