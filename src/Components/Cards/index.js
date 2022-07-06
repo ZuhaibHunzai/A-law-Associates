@@ -3,6 +3,7 @@ import { cardsData } from "../../Assets/Data/cardsData";
 import { Typography } from "@material-ui/core";
 import useStyles from "./styles";
 import { Buttons } from "../Units/buttons";
+import { TextOverflow } from "../../helpers";
 
 const Cards = () => {
   const classes = useStyles();
@@ -31,7 +32,9 @@ const Cards = () => {
                 </div>
 
                 <div className={classes.cardP}>
-                  <Typography variant="body1">{item.desc}</Typography>{" "}
+                  <Typography variant="body1">
+                    {TextOverflow(item.desc, 100)}
+                  </Typography>{" "}
                 </div>
               </div>
 

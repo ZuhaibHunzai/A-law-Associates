@@ -12,12 +12,14 @@ import ChamberPage from "../Pages/ConstitutionalMattersPage";
 
 import UpdatesPage from "../Pages/Updates";
 import TaxMattersPage from "../Pages/TaxMattersPage";
-import CorporateMattersPage from "../Pages/CorporateMattersPage";
 import FamilyMattersPage from "../Pages/FamilyMattersPage";
 import CivilLitigationPage from "../Pages/CivilLitigationPage";
 import CriminalLitigationPage from "../Pages/CriminalLitigationPage";
 import ConstitutionalMattersPage from "../Pages/ConstitutionalMattersPage";
-import ServicesMattersPage from "../Pages/ServicesMattersPage";
+import ServicesMattersPage from "../Pages/otherLaws";
+import ServicesPageDesign from "../Components/servicesPageDesign/servicesPageDesign";
+import OtherLaws from "../Pages/otherLaws";
+import CorporateMattersPage from "../Pages/CorporateMatters/corporateMatters";
 
 const Routers = () => {
   return (
@@ -52,19 +54,18 @@ const Routers = () => {
             path="/services/constitutional-matters"
             element={<ConstitutionalMattersPage />}
           />
-          <Route
-            path="/services/other-laws"
-            element={<ServicesMattersPage />}
-          />
+          <Route path="/services/other-laws" element={<OtherLaws />} />
           <Route
             path="/ngo-society-trust-registration"
             element={<NgoSocietyTrustRegPage />}
           />
+          <Route path="hello" element={<ServicesPageDesign />} />
           <Route
             path="/chamber-of-commerce-registration"
             element={<ChamberPage />}
           />
         </Routes>
+
         <Footer />
       </Router>
     </>

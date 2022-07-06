@@ -1,18 +1,17 @@
-import { constitutionalMattersData } from "../../Assets/Data/cardsData";
+import { otherLawsData } from "../../Assets/Data/cardsData";
 import ServicesPageDesign from "../../Components/servicesPageDesign/servicesPageDesign";
 import { ServicesHeader } from "../../Components/Units/servicesHeader";
 
-const ConstitutionalMattersPage = () => {
+const OtherLaws = () => {
   window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
-
   return (
     <>
       <div>
         <div>
-          <ServicesHeader>Constitutional Matters</ServicesHeader>
+          <ServicesHeader>Other Laws</ServicesHeader>
         </div>
         <div>
-          {constitutionalMattersData.map((item, index) => {
+          {otherLawsData.map((item, index) => {
             return (
               <div>
                 <ServicesPageDesign
@@ -32,4 +31,4 @@ const ConstitutionalMattersPage = () => {
   );
 };
 
-export default ConstitutionalMattersPage;
+export default OtherLaws;
