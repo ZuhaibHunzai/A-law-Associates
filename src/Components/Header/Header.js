@@ -17,7 +17,7 @@ const Header = React.forwardRef((props, ref) => {
   return (
     <AppBar className={classes.AppBar} ref={ref}>
       <Toolbar className={classes.Toolbar}>
-        <div className={classes.logoDiv}>
+        <div className={classes.logoDiv} onClick={() => handleRoute("/")}>
           <div className={classes.logoName}>
             <img className={classes.logo} src={Logo} alt="logo" />
           </div>

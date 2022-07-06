@@ -23,7 +23,7 @@ const ScrollHeader = () => {
           style={{ backgroundColor: "red" }}
         >
           <Toolbar className={classes.Toolbar}>
-            <div className={classes.logoDiv}>
+            <div className={classes.logoDiv} onClick={() => handleRoute("/")}>
               <div className={classes.logoName}>
                 <img
                   width="140px"

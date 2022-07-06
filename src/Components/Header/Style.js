@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     color: "green",
     marginLeft: "25px",
+    cursor: "pointer",
     [theme.breakpoints.down("md")]: {
       marginLeft: "10px",
     },
