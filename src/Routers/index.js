@@ -16,7 +16,6 @@ import FamilyMattersPage from "../Pages/FamilyMattersPage";
 import CivilLitigationPage from "../Pages/CivilLitigationPage";
 import CriminalLitigationPage from "../Pages/CriminalLitigationPage";
 import ConstitutionalMattersPage from "../Pages/ConstitutionalMattersPage";
-import ServicesMattersPage from "../Pages/otherLaws";
 import ServicesPageDesign from "../Components/servicesPageDesign/servicesPageDesign";
 import OtherLaws from "../Pages/otherLaws";
 import CorporateMattersPage from "../Pages/CorporateMatters/corporateMatters";
