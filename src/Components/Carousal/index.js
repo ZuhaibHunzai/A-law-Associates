@@ -20,8 +20,11 @@ const Slider = () => {
         leftChevron={<button className={classes.sliderBtnLeft}>{"<"}</button>}
         rightChevron={<button className={classes.sliderBtnRight}>{">"}</button>}
         chevronWidth={chevronWidth}
-        infiniteLoop={true}
+        // infiniteLoop={true}
         enablePlaceholder={true}
+        infiniteLoop
+        useKeyboardArrows
+        autoPlay
       >
         <div className={classes.sliderMain}>
           <img src={society} alt="img" className={classes.sliderMain} />

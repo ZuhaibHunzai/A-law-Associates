@@ -19,6 +19,7 @@ import ConstitutionalMattersPage from "../Pages/ConstitutionalMattersPage";
 import ServicesPageDesign from "../Components/servicesPageDesign/servicesPageDesign";
 import OtherLaws from "../Pages/otherLaws";
 import CorporateMattersPage from "../Pages/CorporateMatters/corporateMatters";
+import Achievements from "../Pages/achievements";
 
 const Routers = () => {
   return (
@@ -62,6 +63,10 @@ const Routers = () => {
           <Route
             path="/chamber-of-commerce-registration"
             element={<ChamberPage />}
+          />
+          <Route
+            path="/a-law-associates-achievements"
+            element={<Achievements />}
           />
         </Routes>
 

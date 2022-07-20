@@ -64,6 +64,14 @@ const Header = React.forwardRef((props, ref) => {
           >
             Team
           </Buttons>
+          <Buttons
+            type="button"
+            buttonStyle="btn--black--solid"
+            buttonSize="btn--medium"
+            onClick={() => handleRoute("/a-law-associates-achievements")}
+          >
+            Achievements
+          </Buttons>
 
           <Buttons
             type="button"

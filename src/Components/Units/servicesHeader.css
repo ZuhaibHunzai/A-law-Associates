@@ -22,6 +22,8 @@
 @media screen and (max-width: 450) {
   .servicesHeader {
     font-size: 20px;
-    height: 100px;
+  }
+  .services-header {
+    height: 300px;
   }
 }

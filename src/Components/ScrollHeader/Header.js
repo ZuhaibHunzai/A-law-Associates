@@ -75,7 +75,14 @@ const ScrollHeader = () => {
               >
                 Team
               </Buttons>
-
+              <Buttons
+                type="button"
+                buttonStyle="btn--white--solid"
+                buttonSize="btn--medium"
+                onClick={() => handleRoute("/a-law-associates-achievements")}
+              >
+                Achievements
+              </Buttons>
               <Buttons
                 type="button"
                 buttonStyle="btn--white--solid"

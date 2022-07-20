@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core";
-import Bg from "../../Assets/Images/pen-on-paper.jpg";
+import Bg from "../../Assets/Images/heroImg.jpg";
 
 const useStyles = makeStyles((theme) => ({
   heroMain: {
