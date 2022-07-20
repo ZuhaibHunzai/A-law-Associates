@@ -4,7 +4,8 @@ const useStyles = makeStyles((theme) => ({
   servicesBodyMain: {
     display: "flex",
     justifyContent: "center",
-
+    flexDirection: "column",
+    alignItems: "center",
     height: "auto",
     flexWrap: "wrap",
     paddingTop: "30px",
@@ -31,8 +32,10 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   servicesBodyTextDiv: {
-    paddingLeft: "50px",
+    width: "650px",
+    paddingTop: "20px",
     [theme.breakpoints.down("md")]: {
+      width: "90%",
       paddingTop: "30px",
       paddingLeft: "20px",
     },
@@ -42,20 +45,18 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   servicesTextDiv: {
-    width: "400px",
-    height: "400px",
+    width: "650px",
     display: "flex",
     justifyContent: "space-around",
     flexDirection: "column",
-    flexWrap: "wrap",
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
-      width: "250px",
+      width: "90%",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
-      width: "300",
+      width: "90%",
       height: "auto",
     },
   },
@@ -65,12 +66,12 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
       paddingLeft: "20px",
-      width: "400px",
+      width: "90%",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
-      width: "300px",
+      width: "90%",
       height: "auto",
     },
   },
@@ -80,17 +81,17 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       justifyContent: "center",
       paddingLeft: "20px",
-      width: "400px",
+      width: "90%",
       height: "auto",
     },
     [theme.breakpoints.down("sm")]: {
       justifyContent: "center",
-      width: "300px",
+      width: "90%",
       height: "auto",
     },
   },
   serviceP: {
-    width: "450px",
+    width: "650px",
     fontWeight: "300",
     fontSize: "22px",
     textAlign: "justify",
@@ -109,7 +110,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
   },
   location: {
-    Window: "100%",
+    Width: "100%",
   },
 }));
 
