@@ -59,7 +59,7 @@ const Routers = () => {
             path="/ngo-society-trust-registration"
             element={<NgoSocietyTrustRegPage />}
           />
-          <Route path="hello" element={<ServicesPageDesign />} />
+          {/* <Route path="hello" element={<ServicesPageDesign />} /> */}
           <Route
             path="/chamber-of-commerce-registration"
             element={<ChamberPage />}
