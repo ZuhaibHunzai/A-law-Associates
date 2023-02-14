@@ -99,14 +99,6 @@ const ScrollHeader = () => {
               >
                 Updates
               </Buttons>
-              <Buttons
-                type="button"
-                buttonStyle="btn--white--solid"
-                buttonSize="btn--medium"
-                onClick={() => handleRoute("/new-updates")}
-              >
-                Aqib
-              </Buttons>
             </div>
             <div className="walletDiv">
               <Buttons
